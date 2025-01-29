@@ -1,0 +1,8 @@
+{
+    "name": "@agendando_ai/tokens",
+    "version": "1.0.0",
+    "description": "Shared design tokens for React and React Native Design Systems",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "license": "MIT"
+}
