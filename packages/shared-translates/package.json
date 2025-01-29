@@ -1,0 +1,8 @@
+{
+    "name": "@agendando_ai/translates",
+    "version": "1.0.0",
+    "description": "Shared translations for React and React Native",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "license": "MIT"
+}
