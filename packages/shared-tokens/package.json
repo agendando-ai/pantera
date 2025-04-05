@@ -4,5 +4,12 @@
     "description": "Shared design tokens for React and React Native Design Systems",
     "main": "index.js",
     "types": "index.d.ts",
-    "license": "MIT"
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.5.14",
+        "typescript": "^5.8.3"
+    }
 }
