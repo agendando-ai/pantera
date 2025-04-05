@@ -24,5 +24,23 @@ const config = {
     name: getAbsolutePath("@storybook/react-vite"),
     options: {},
   },
+  viteFinal: (config) => {
+    // Alias react-native para react-native-web
+    config.resolve.alias = {
+      ...(config.resolve.alias || {}),
+      "react-native": "react-native-web",
+    };
+
+    // Extensões extras se necessário
+    config.resolve.extensions = [
+      ...(config.resolve.extensions || []),
+      ".web.js",
+      ".js",
+      ".ts",
+      ".tsx",
+    ];
+
+    return config;
+  },
 };
 export default config;
