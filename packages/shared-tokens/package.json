@@ -5,6 +5,9 @@
     "main": "index.js",
     "types": "index.d.ts",
     "license": "MIT",
+    "publishConfig": {
+        "registry": "https://verdaccio.barbeia.ai"
+    },
     "scripts": {
         "build": "tsc"
     },
