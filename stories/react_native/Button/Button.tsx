@@ -7,6 +7,7 @@ export const Button: React.FC<ButtonProps> = ({
   title,
   variant = 'primary',
   loading = false,
+  border = '8',
   style,
   ...rest
 }) => {
@@ -15,6 +16,10 @@ export const Button: React.FC<ButtonProps> = ({
     variant === 'primary' && styles.primary,
     variant === 'secondary' && styles.secondary,
     variant === 'outline' && styles.outline,
+    border === '8' && styles.borderOne,
+    border === '16' && styles.borderTwo,
+    border === '24' && styles.borderThree,
+    border === '32' && styles.borderFour,
     style,
   ];
 

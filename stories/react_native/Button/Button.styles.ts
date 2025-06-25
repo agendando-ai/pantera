@@ -3,11 +3,11 @@ import theme from '@agendando_ai/tokens';
 
 export const styles = StyleSheet.create({
   container: {
-    borderRadius: 8,
-    paddingVertical: 12,
-    paddingHorizontal: 16,
     alignItems: 'center',
-    justifyContent: 'center',
+    padding: 15,
+    // fontFamily: 'SpaceGrotesk-Bold',
+    fontSize: 16,
+    color: theme.colors.primary == '#2A7AE4' ? 'white' : 'black',
   },
   primary: {
     backgroundColor: theme.colors.primary,
@@ -33,5 +33,17 @@ export const styles = StyleSheet.create({
   },
   textOutline: {
     color: '#1D4ED8',
+  },
+  borderOne: {
+    borderRadius: 8,
+  },
+  borderTwo: {
+    borderRadius: 16,
+  },
+  borderThree: {
+    borderRadius: 24,
+  },
+  borderFour: {
+    borderRadius: 32,
   },
 });
